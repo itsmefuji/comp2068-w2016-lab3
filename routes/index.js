@@ -6,4 +6,5 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Express on Azure' });
 });
 
+
 module.exports = router;
