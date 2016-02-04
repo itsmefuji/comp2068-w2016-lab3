@@ -7,22 +7,22 @@ router.get('/', function(req, res, next) {
 });
 
 /* GET About Me page. */
-router.get('/', function(req, res, next) {
+router.get('/about', function(req, res, next) {
   res.render('about', { title: 'About Me' });
 });
 
 /* GET Contact Me page */
-router.get('/', function(req, res, next) {
+router.get('/contact', function(req, res, next) {
   res.render('contact', { title: 'Contact Me' });
 });
 
 /* GET Projects page */
-router.get('/', function(req, res, next) {
+router.get('/projects', function(req, res, next) {
   res.render('projects', { title: 'Projects' });
 });
 
 /* GET Service page. */
-router.get('/', function(req, res, next) {
+router.get('/services', function(req, res, next) {
   res.render('services', { title: 'Services' });
 });
 
